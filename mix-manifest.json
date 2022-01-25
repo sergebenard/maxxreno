@@ -1,5 +1,10 @@
 {
     "/public/js/app.js": "/public/js/app.js",
     "/public/css/app.css": "/public/css/app.css",
-    "/public/index.html": "/public/index.html"
+    "/public/index.html": "/public/index.html",
+    "/public/images/bathroomremodel.jpg": "/public/images/bathroomremodel.jpg",
+    "/public/images/kitchenremodel.jpg": "/public/images/kitchenremodel.jpg",
+    "/public/images/MaxxRenoLogo.svg": "/public/images/MaxxRenoLogo.svg",
+    "/public/images/tiledfloor.jpg": "/public/images/tiledfloor.jpg",
+    "/public/images/woodfloor.jpg": "/public/images/woodfloor.jpg"
 }

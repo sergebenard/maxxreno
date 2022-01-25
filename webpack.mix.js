@@ -4,4 +4,5 @@ mix.js("src/js/app.js", "public/js/")
     .postCss("src/css/app.css", "public/css/", [
         require("tailwindcss"),
     ])
-    .copy("src/html/index.html", "public/index.html");
+    .copy("src/html/index.html", "public/index.html")
+    .copyDirectory("src/images", "public/images/");
