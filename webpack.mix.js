@@ -7,4 +7,6 @@ mix.js("src/js/app.js", "public/js/")
         require("tailwindcss"),
     ])
     .copy("src/html/index.html", "public/index.html")
-    .svelte();
+    .svelte({
+        dev: true
+    });
