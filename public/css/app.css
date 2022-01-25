@@ -476,11 +476,29 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-1\/2 {
   width: 50%;
 }
+.min-w-\[200px\] {
+  min-width: 200px;
+}
+.min-w-\[250px\] {
+  min-width: 250px;
+}
 .max-w-4xl {
   max-width: 56rem;
 }
 .max-w-sm {
   max-width: 24rem;
+}
+.max-w-\[200px\] {
+  max-width: 200px;
+}
+.max-w-\[150px\] {
+  max-width: 150px;
+}
+.max-w-\[250px\] {
+  max-width: 250px;
+}
+.max-w-\[400px\] {
+  max-width: 400px;
 }
 .flex-1 {
   flex: 1 1 0%;
@@ -705,6 +723,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-orange-900 {
   --tw-text-opacity: 1;
   color: rgb(124 45 18 / var(--tw-text-opacity));
+}
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);

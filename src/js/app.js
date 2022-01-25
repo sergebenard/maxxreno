@@ -1,7 +1,5 @@
-import App from './App.svelte';
+import Alpine from 'alpinejs'
 
-const app = new App({
-	target: document.body,
-});
+window.Alpine = Alpine
 
-export default app;
+Alpine.start()
