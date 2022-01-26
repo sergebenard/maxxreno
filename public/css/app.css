@@ -430,8 +430,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .relative {
   position: relative;
 }
-.right-5 {
-  right: 1.25rem;
+.right-0 {
+  right: 0px;
 }
 .z-10 {
   z-index: 10;
@@ -854,7 +854,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+@media (min-width: 640px) {
+
+  .sm\:right-5 {
+    right: 1.25rem;
+  }
+}
 @media (min-width: 768px) {
+
+  .md\:right-5 {
+    right: 1.25rem;
+  }
 
   .md\:block {
     display: block;
